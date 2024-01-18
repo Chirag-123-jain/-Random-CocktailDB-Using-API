@@ -1,0 +1,58 @@
+body{
+    background-image: url('https://i.gifer.com/7wP6.gif');
+    background-size: auto;
+
+}
+h1{ 
+    
+    position: absolute;
+    top: 270px;
+    left: 250px;
+    color: aquamarine !important;
+    font-family: 'Rubik Burned', system-ui;
+    font-weight: 400;
+}
+button{
+    
+    color: #fff !important;
+    font-family: 'Rubik Burned', system-ui !important;
+    font-weight: 400 !important;
+    font-size: xx-large  !important;
+}
+.btn {
+    
+    display: inline-block;
+    outline: 0;
+    border:0;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    color: #000;
+    background: #fff;
+    line-height: 50px;
+    border-radius: 40px;
+    padding: 20px;
+    font-size: 50%;
+    font-weight: 600;
+    width: 20%;
+    height: 10%;
+    box-shadow: rgb(255, 198, 0) -2px -2px 0px 2px, rgb(246, 84, 174) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transition: all 0.2s;
+    :hover{
+        box-shadow: rgb(246, 84, 174) -2px -2px 0px 2px, rgb(255, 198, 0) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+        transform: scale(1.01);
+    }
+    
+    
+    
+}
+.card{
+    position: relative;
+    top: 30px;
+    left: 800px;
+    background-color: black !important;
+    color: #fff !important;
+    
+}
